@@ -35,8 +35,7 @@ function draw() {
   if (frameCount == 360) {
     noLoop();
   }
-
-  //altodx
+//altodx
   push();
   translate(width/2+500,height/2-50-101);
   rotate(frameCount);
