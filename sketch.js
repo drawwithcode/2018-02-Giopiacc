@@ -13,7 +13,7 @@ function setup() {
 
 function draw() {
 
-  //altsx
+//altsx
   push();
   translate(width/2-500,height/2-50-101);
   rotate(frameCount);
@@ -56,9 +56,8 @@ function draw() {
   if (frameCount == 360) {
     noLoop();
   }
-  //centro
 
-
+//centro
   translate(width/2, height/2);
    rotate(frameCount*4);
   line(300,0,cos(frameCount*3)*300,sin(frameCount*3)*300);
@@ -74,21 +73,6 @@ function draw() {
    if (frameCount == 360) {
      noLoop();
    }
-
-   // rotate(frameCount*2);
-   // stroke(lerpColor(color('#ea0043'), color('#0fefca'),frameCount/120));
-
-   // //sopra
-   // line(0,height,cos(frameCount*3)*width,sin(frameCount*3)*width);
-   //
-   //
-
-
-
-
-
-
-
 
 
 }
